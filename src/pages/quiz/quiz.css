@@ -1,0 +1,113 @@
+
+
+.box {
+    background-color: white;
+    width: 450px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  
+  .score-section {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+  }
+  
+  .timer-text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 189, 67);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .answer-section button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(255, 45, 45, 0.897);
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid rgba(255, 164, 45, 0.897);
+    cursor: pointer;
+  }
+  
+  .correct {
+    background-color: #2f922f;
+  }
+  
+  .incorrect {
+    background-color: #ff3333;
+  }
+  
+ .answer-section button:hover {
+    background-color: rgb(243, 178, 0);
+  }
+  
+ .answer-section button:focus {
+    outline: none;
+  }
+  
+ .answer-section button svg {
+    margin-right: 5px;
+  }
+
+  .quiz-finish{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .quiz-finish button{
+      width: 150px;
+      height: 40px;
+      border: solid 1px rgb(243, 178, 0);
+      background-color: rgb(243, 178, 0);
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 15px;
+      cursor: pointer;
+  }
+
+  .quiz-finish button:hover {
+    background-color: rgb(255, 153, 0);
+  }
